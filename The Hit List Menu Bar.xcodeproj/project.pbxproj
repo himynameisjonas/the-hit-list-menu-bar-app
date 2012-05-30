@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD1E88E315763EAE005F5838 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1E88E215763EAE005F5838 /* ScriptingBridge.framework */; };
 		DD2D053715762AE20086D411 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD2D053515762AE20086D411 /* InfoPlist.strings */; };
 		DD2D053915762AE20086D411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D053815762AE20086D411 /* main.m */; };
 		DD2D054115762AE20086D411 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = DD2D054015762AE20086D411 /* rb_main.rb */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD1E88E215763EAE005F5838 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 		DD2D052715762AE20086D411 /* The Hit List Menu Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Hit List Menu Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2D053415762AE20086D411 /* The Hit List Menu Bar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Hit List Menu Bar-Info.plist"; sourceTree = "<group>"; };
 		DD2D053615762AE20086D411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD1E88E315763EAE005F5838 /* ScriptingBridge.framework in Frameworks */,
 				DD2D054F15762BA90086D411 /* MacRuby.framework in Frameworks */,
 				DD2D054D15762B9A0086D411 /* AppKit.framework in Frameworks */,
 			);
@@ -74,6 +77,7 @@
 		DD2D052A15762AE20086D411 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD1E88E215763EAE005F5838 /* ScriptingBridge.framework */,
 				DD2D054E15762BA90086D411 /* MacRuby.framework */,
 				DD2D054C15762B9A0086D411 /* AppKit.framework */,
 			);

@@ -7,7 +7,7 @@
 //
 
 #import <Appkit/AppKit.h>
-
+#import <ScriptingBridge/ScriptingBridge.h>
 #import <MacRuby/MacRuby.h>
 
 int main(int argc, char *argv[])
