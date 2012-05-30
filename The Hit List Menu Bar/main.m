@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Mynewsdesk. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Appkit/AppKit.h>
 
 #import <MacRuby/MacRuby.h>
 

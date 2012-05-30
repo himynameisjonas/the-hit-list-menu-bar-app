@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD2D052C15762AE20086D411 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D052B15762AE20086D411 /* Cocoa.framework */; };
-		DD2D052E15762AE20086D411 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D052D15762AE20086D411 /* MacRuby.framework */; };
 		DD2D053715762AE20086D411 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD2D053515762AE20086D411 /* InfoPlist.strings */; };
 		DD2D053915762AE20086D411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D053815762AE20086D411 /* main.m */; };
-		DD2D053E15762AE20086D411 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2D053C15762AE20086D411 /* MainMenu.xib */; };
 		DD2D054115762AE20086D411 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = DD2D054015762AE20086D411 /* rb_main.rb */; };
 		DD2D054315762AE20086D411 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = DD2D054215762AE20086D411 /* AppDelegate.rb */; };
+		DD2D054D15762B9A0086D411 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D054C15762B9A0086D411 /* AppKit.framework */; };
+		DD2D054F15762BA90086D411 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D054E15762BA90086D411 /* MacRuby.framework */; };
+		DDF98D241576359B00011D7A /* status_black.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF98D221576359B00011D7A /* status_black.png */; };
+		DDF98D251576359B00011D7A /* status_color.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF98D231576359B00011D7A /* status_color.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,15 +29,16 @@
 
 /* Begin PBXFileReference section */
 		DD2D052715762AE20086D411 /* The Hit List Menu Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Hit List Menu Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD2D052B15762AE20086D411 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		DD2D052D15762AE20086D411 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		DD2D053415762AE20086D411 /* The Hit List Menu Bar-Info.plist */ = {isa = PBXFileReference; path = "The Hit List Menu Bar-Info.plist"; sourceTree = "<group>"; };
+		DD2D053415762AE20086D411 /* The Hit List Menu Bar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Hit List Menu Bar-Info.plist"; sourceTree = "<group>"; };
 		DD2D053615762AE20086D411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD2D053815762AE20086D411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD2D053A15762AE20086D411 /* The Hit List Menu Bar-Prefix.pch */ = {isa = PBXFileReference; path = "The Hit List Menu Bar-Prefix.pch"; sourceTree = "<group>"; };
-		DD2D053D15762AE20086D411 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DD2D053A15762AE20086D411 /* The Hit List Menu Bar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Hit List Menu Bar-Prefix.pch"; sourceTree = "<group>"; };
 		DD2D054015762AE20086D411 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		DD2D054215762AE20086D411 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		DD2D054C15762B9A0086D411 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DD2D054E15762BA90086D411 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		DDF98D221576359B00011D7A /* status_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_black.png; sourceTree = "<group>"; };
+		DDF98D231576359B00011D7A /* status_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_color.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2D052C15762AE20086D411 /* Cocoa.framework in Frameworks */,
-				DD2D052E15762AE20086D411 /* MacRuby.framework in Frameworks */,
+				DD2D054F15762BA90086D411 /* MacRuby.framework in Frameworks */,
+				DD2D054D15762B9A0086D411 /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +74,8 @@
 		DD2D052A15762AE20086D411 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD2D052B15762AE20086D411 /* Cocoa.framework */,
-				DD2D052D15762AE20086D411 /* MacRuby.framework */,
+				DD2D054E15762BA90086D411 /* MacRuby.framework */,
+				DD2D054C15762B9A0086D411 /* AppKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,7 +105,8 @@
 		DD2D053B15762AE20086D411 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DD2D053C15762AE20086D411 /* MainMenu.xib */,
+				DDF98D221576359B00011D7A /* status_black.png */,
+				DDF98D231576359B00011D7A /* status_color.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -186,9 +189,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2D053715762AE20086D411 /* InfoPlist.strings in Resources */,
-				DD2D053E15762AE20086D411 /* MainMenu.xib in Resources */,
 				DD2D054115762AE20086D411 /* rb_main.rb in Resources */,
 				DD2D054315762AE20086D411 /* AppDelegate.rb in Resources */,
+				DDF98D241576359B00011D7A /* status_black.png in Resources */,
+				DDF98D251576359B00011D7A /* status_color.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,14 +224,6 @@
 				DD2D053615762AE20086D411 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DD2D053C15762AE20086D411 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD2D053D15762AE20086D411 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,6 +339,7 @@
 				DD2D054815762AE20086D411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD2D054915762AE20086D411 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -351,6 +348,7 @@
 				DD2D054B15762AE20086D411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
