@@ -1,7 +1,7 @@
 The Hit List menu bar app
 =========================
 
-Show how many uncompleted task there is in the Today list.
+Show how many uncompleted task there are in the Today list.
 
 ![The Hit List menu bar app](https://img.skitch.com/20120530-rbser6s6mtmafxne3b5jc5cppg.png)
 
