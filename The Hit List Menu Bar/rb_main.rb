@@ -53,6 +53,7 @@ def render_task_list
   tasks.each do |task|
     mi = NSMenuItem.new
     mi.title = task.title
+    mi.action = 'show:'
     mi.target = self
     @menu.insertItem mi, atIndex: 0
     @task_items << mi
@@ -81,6 +82,11 @@ def runner
     end
   end
 end
+
+def show(sender)
+  HITLIST.activate
+end
+
 
 def quit(sender)
   app = NSApplication.sharedApplication
