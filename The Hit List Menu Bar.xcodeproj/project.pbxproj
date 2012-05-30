@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD2D052C15762AE20086D411 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D052B15762AE20086D411 /* Cocoa.framework */; };
+		DD2D052E15762AE20086D411 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D052D15762AE20086D411 /* MacRuby.framework */; };
+		DD2D053715762AE20086D411 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD2D053515762AE20086D411 /* InfoPlist.strings */; };
+		DD2D053915762AE20086D411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D053815762AE20086D411 /* main.m */; };
+		DD2D053E15762AE20086D411 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2D053C15762AE20086D411 /* MainMenu.xib */; };
+		DD2D054115762AE20086D411 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = DD2D054015762AE20086D411 /* rb_main.rb */; };
+		DD2D054315762AE20086D411 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = DD2D054215762AE20086D411 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD2D053015762AE20086D411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2D051E15762AE10086D411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2D052615762AE20086D411;
+			remoteInfo = "The Hit List Menu Bar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD2D052715762AE20086D411 /* The Hit List Menu Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Hit List Menu Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2D052B15762AE20086D411 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DD2D052D15762AE20086D411 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		DD2D053415762AE20086D411 /* The Hit List Menu Bar-Info.plist */ = {isa = PBXFileReference; path = "The Hit List Menu Bar-Info.plist"; sourceTree = "<group>"; };
+		DD2D053615762AE20086D411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD2D053815762AE20086D411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD2D053A15762AE20086D411 /* The Hit List Menu Bar-Prefix.pch */ = {isa = PBXFileReference; path = "The Hit List Menu Bar-Prefix.pch"; sourceTree = "<group>"; };
+		DD2D053D15762AE20086D411 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DD2D054015762AE20086D411 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		DD2D054215762AE20086D411 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD2D052415762AE20086D411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2D052C15762AE20086D411 /* Cocoa.framework in Frameworks */,
+				DD2D052E15762AE20086D411 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD2D051C15762AE10086D411 = {
+			isa = PBXGroup;
+			children = (
+				DD2D053215762AE20086D411 /* The Hit List Menu Bar */,
+				DD2D052A15762AE20086D411 /* Frameworks */,
+				DD2D052815762AE20086D411 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2D052815762AE20086D411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D052715762AE20086D411 /* The Hit List Menu Bar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2D052A15762AE20086D411 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D052B15762AE20086D411 /* Cocoa.framework */,
+				DD2D052D15762AE20086D411 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2D053215762AE20086D411 /* The Hit List Menu Bar */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D054215762AE20086D411 /* AppDelegate.rb */,
+				DD2D053B15762AE20086D411 /* Resources */,
+				DD2D053F15762AE20086D411 /* Other Sources */,
+				DD2D053315762AE20086D411 /* Supporting Files */,
+			);
+			path = "The Hit List Menu Bar";
+			sourceTree = "<group>";
+		};
+		DD2D053315762AE20086D411 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D053415762AE20086D411 /* The Hit List Menu Bar-Info.plist */,
+				DD2D053515762AE20086D411 /* InfoPlist.strings */,
+				DD2D053815762AE20086D411 /* main.m */,
+				DD2D053A15762AE20086D411 /* The Hit List Menu Bar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD2D053B15762AE20086D411 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D053C15762AE20086D411 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DD2D053F15762AE20086D411 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D054015762AE20086D411 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		DD2D052F15762AE20086D411 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = DD2D054915762AE20086D411 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				DD2D053115762AE20086D411 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		DD2D052615762AE20086D411 /* The Hit List Menu Bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2D054615762AE20086D411 /* Build configuration list for PBXNativeTarget "The Hit List Menu Bar" */;
+			buildPhases = (
+				DD2D052315762AE20086D411 /* Sources */,
+				DD2D052415762AE20086D411 /* Frameworks */,
+				DD2D052515762AE20086D411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Hit List Menu Bar";
+			productName = "The Hit List Menu Bar";
+			productReference = DD2D052715762AE20086D411 /* The Hit List Menu Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD2D051E15762AE10086D411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Mynewsdesk;
+			};
+			buildConfigurationList = DD2D052115762AE10086D411 /* Build configuration list for PBXProject "The Hit List Menu Bar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD2D051C15762AE10086D411;
+			productRefGroup = DD2D052815762AE20086D411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD2D052615762AE20086D411 /* The Hit List Menu Bar */,
+				DD2D052F15762AE20086D411 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD2D052515762AE20086D411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2D053715762AE20086D411 /* InfoPlist.strings in Resources */,
+				DD2D053E15762AE20086D411 /* MainMenu.xib in Resources */,
+				DD2D054115762AE20086D411 /* rb_main.rb in Resources */,
+				DD2D054315762AE20086D411 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD2D052315762AE20086D411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2D053915762AE20086D411 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD2D053115762AE20086D411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2D052615762AE20086D411 /* The Hit List Menu Bar */;
+			targetProxy = DD2D053015762AE20086D411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD2D053515762AE20086D411 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2D053615762AE20086D411 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD2D053C15762AE20086D411 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2D053D15762AE20086D411 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD2D054415762AE20086D411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD2D054515762AE20086D411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD2D054715762AE20086D411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Hit List Menu Bar/The Hit List Menu Bar-Prefix.pch";
+				INFOPLIST_FILE = "The Hit List Menu Bar/The Hit List Menu Bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD2D054815762AE20086D411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Hit List Menu Bar/The Hit List Menu Bar-Prefix.pch";
+				INFOPLIST_FILE = "The Hit List Menu Bar/The Hit List Menu Bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD2D054A15762AE20086D411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		DD2D054B15762AE20086D411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD2D052115762AE10086D411 /* Build configuration list for PBXProject "The Hit List Menu Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2D054415762AE20086D411 /* Debug */,
+				DD2D054515762AE20086D411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2D054615762AE20086D411 /* Build configuration list for PBXNativeTarget "The Hit List Menu Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2D054715762AE20086D411 /* Debug */,
+				DD2D054815762AE20086D411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD2D054915762AE20086D411 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2D054A15762AE20086D411 /* Debug */,
+				DD2D054B15762AE20086D411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD2D051E15762AE10086D411 /* Project object */;
+}
